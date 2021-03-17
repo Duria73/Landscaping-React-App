@@ -1,5 +1,4 @@
 import * as React from "react"
-import Header from "../components/Header"
 import Hero from "../components/Hero"
 import Gallery from "../components/Gallery"
 import Services from "../components/Services"
@@ -14,7 +13,6 @@ const IndexPage = () => (
   <Layout>
 
         <SEO title="Home" />
-        <Header/>
         <Hero/>
         <Gallery heading="Our Gallery"/>
         <Services />

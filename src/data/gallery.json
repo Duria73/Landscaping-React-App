@@ -1,0 +1,26 @@
+[
+    {
+        "img": "../images/gallery-1.jpg",
+        "alt": "House in Thornhill",
+        "name": "Thornhill, Ontario",
+        "button": "View More"
+    },
+    {
+        "img": "../images/gallery-2.jpg",
+        "alt": "House in Baby Point",
+        "name": "Etobicoke, Ontario",
+        "button": "View More"
+    },
+    {
+        "img": "../images/gallery-3.jpg",
+        "alt": "House in Oakville",
+        "name": "Oakville, Ontario",
+        "button": "View More"
+    },
+    {
+        "img": "../images/gallery-4.jpg",
+        "alt": "House in Thornhill",
+        "name": "Thornhill, Ontario",
+        "button": "View More"
+    }
+]

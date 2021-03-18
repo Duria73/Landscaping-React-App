@@ -1,4 +1,5 @@
-import * as React from "react"
+import React, {useState} from "react"
+
 import Hero from "../components/Hero"
 import Gallery from "../components/Gallery"
 import Services from "../components/Services"
@@ -9,11 +10,13 @@ import Footer from "../components/Footer"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
-  <Layout>
+const IndexPage = () => {
+
+
+  return (
+  <Layout toggle={toggle} isOpen={isOpen}>
 
         <SEO title="Home" />
-        <Header/>
         <Hero/>
         <Gallery heading="Our Gallery"/>
         <Services />
@@ -21,6 +24,7 @@ const IndexPage = () => (
         <Footer/>
  
   </Layout>
-)
+  )
+}
 
 export default IndexPage

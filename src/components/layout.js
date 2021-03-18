@@ -1,7 +1,7 @@
 import React, {useState} from "react"
 
 import Sidebar from "./Sidebar"
-import Header from "./Header"
+import {Header} from "./Header"
 import { GlobalStyle } from "./styles/GlobalStyles"
 
 const Layout = ({ children}) => {

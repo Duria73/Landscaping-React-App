@@ -22,7 +22,7 @@ const Header = ({toggle}) => {
         ))}
       </NavMenu>
       <NavBtn>
-          <Button  round="true" to="/consultation">Book a Consultation</Button>
+          <Button round="true" to="/consultation">Book a Consultation</Button>
       </NavBtn>
     </Nav>
   )

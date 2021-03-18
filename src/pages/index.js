@@ -14,7 +14,7 @@ const IndexPage = () => {
 
 
   return (
-  <Layout toggle={toggle} isOpen={isOpen}>
+  <Layout>
 
         <SEO title="Home" />
         <Hero/>
